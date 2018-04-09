@@ -16,7 +16,7 @@ namespace Delegates
         }
         static void Main(string[] args)
         {
-            //DelCall d = new DelCall(returnDel);
+            DelCall d = new DelCall(returnDel);
             //d.Invoke("rakesh");
 
             DelCall de = rajesh => {  };
