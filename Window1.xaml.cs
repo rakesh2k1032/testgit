@@ -26,7 +26,6 @@ namespace DragAndDrop
             InitializeComponent();
             this.Loaded += new RoutedEventHandler(Window1_Loaded);
         }
-
         void Window1_Loaded(object sender, RoutedEventArgs e)
         {
             listbox.ItemsSource = Product.GetProducts();
