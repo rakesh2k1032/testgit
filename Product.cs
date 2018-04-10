@@ -10,7 +10,8 @@ namespace DragAndDrop
     {
         public string Name { get; set; }
         public int Qty { get; set; }
-        public string Description { get; set; }
+        
+        
 
         public static ObservableCollection<Product> GetProducts()
         {
