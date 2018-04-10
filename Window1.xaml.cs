@@ -29,7 +29,7 @@ namespace DragAndDrop
 
         void Window1_Loaded(object sender, RoutedEventArgs e)
         {
-            listbox.ItemsSource = Product.GetProducts();
+            listbox.ItemsSource = Product.GetProducts();//ok changed
         }
     }
 }
